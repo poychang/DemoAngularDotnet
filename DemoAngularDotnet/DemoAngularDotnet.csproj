@@ -3,6 +3,7 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp1.1</TargetFramework>
     <TypeScriptCompilerBlocked>true</TypeScriptCompilerBlocked>
+    <PreBuildEvent>ng build --aot</PreBuildEvent>
   </PropertyGroup>
 
   <ItemGroup>
